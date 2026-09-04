@@ -1,0 +1,1 @@
+$particle witch $(final_x) $(final_y) $(final_z)

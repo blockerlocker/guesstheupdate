@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^ summon marker run function guesstheupdate:zzz/player/calc_hit

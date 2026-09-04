@@ -1,6 +1,6 @@
 {
     "values": [
         "#bldp:load",
-        "guesstheupdate:zzz/load"
+        "guesstheupdate:zzz/tick/main"
     ]
 }

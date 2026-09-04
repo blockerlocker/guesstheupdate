@@ -1,0 +1,1 @@
+execute at f9251945-bce3-42d1-aab0-bf5d0c8d936f run function guesstheupdate:game_board/summon

@@ -1,1 +1,3 @@
+execute summon item_display run data merge entity @s {Tags:[guesstheupdate,guesstheupdate_item_holder],item:{id:diamond},item_display:"gui",interpolation_duration:1,transformation:{scale:[1,1,0.01],left_rotation:[0,1,0,0],translation:[0,0,0.1]}}
+
 summon text_display ~ ~ ~ {Tags:[guesstheupdate,guesstheupdate_item_holder],background:0,transformation:[10.0,0,0,-0.25,0,10.0,0,-1.5,0,0,1,0,0,0,0,1],data:{sprite_size:[32,32]},interpolation_duration:1,text:{atlas:'gui',sprite:'container/inventory/effect_background_ambient'}}

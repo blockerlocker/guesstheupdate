@@ -1,0 +1,1 @@
+$data remove storage guesstheupdate:temp all.updates[$(index)]

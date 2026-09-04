@@ -1,0 +1,1 @@
+summon text_display ~ ~ ~ {Tags:[guesstheupdate,guesstheupdate_item_holder],background:0,transformation:[10.0,0,0,-0.25,0,10.0,0,-1.5,0,0,1,0,0,0,0,1],data:{sprite_size:[32,32]},interpolation_duration:1,text:{atlas:'gui',sprite:'container/inventory/effect_background_ambient'}}

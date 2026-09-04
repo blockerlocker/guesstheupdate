@@ -1,0 +1,1 @@
+scoreboard objectives add guesstheupdate_anim dummy

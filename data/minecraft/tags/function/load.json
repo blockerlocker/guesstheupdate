@@ -1,5 +1,6 @@
 {
     "values": [
-        "#bldp:load"
+        "#bldp:load",
+        "guesstheupdate:zzz/load"
     ]
 }

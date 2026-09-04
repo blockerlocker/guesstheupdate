@@ -1,2 +1,2 @@
-execute unless data storage bldp:registry all.updates run function bldp:registry/updates
+execute unless data storage bldp:registry all.update run function bldp:registry/update
 scoreboard objectives add operator dummy

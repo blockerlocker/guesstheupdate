@@ -1,0 +1,3 @@
+data modify entity @s text.color set value red
+execute summon text_display run data merge entity @s {Tags:[guesstheupdate,guesstheupdate_corrected_answer_text],text:{text:"ERROR"},shadow:true,transformation:{scale:[1,1,1],translation:[0,-0.75,0.1]}}
+data modify entity @n[type=text_display,tag=guesstheupdate_corrected_answer_text,distance=..0.5] text set from entity @n[type=item_display,tag=guesstheupdate_item_holder,distance=..0.5] data.version

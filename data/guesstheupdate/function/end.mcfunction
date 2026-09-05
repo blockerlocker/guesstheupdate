@@ -12,6 +12,8 @@ execute as @a run attribute @s entity_interaction_range modifier remove guessthe
 execute as @e[type=item_display,tag=guesstheupdate_item_holder] run data modify entity @s Pos set from entity @s data.origin
 execute as @e[type=item_display,tag=guesstheupdate_item_holder] run data modify entity @s data.last_pos set from entity @s data.origin
 
+kill @e[type=text_display,tag=guesstheupdate_corrected_answer_text]
+
 tag @e[type=item_display,tag=guesstheupdate_held_item] remove guesstheupdate_held_item
 tag @e[type=item_display,tag=guesstheupdate_held_item_check] remove guesstheupdate_held_item_check
 tag @e[tag=guesstheupdate_item_hover] remove guesstheupdate_item_hover

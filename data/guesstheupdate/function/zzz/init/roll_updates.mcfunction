@@ -1,4 +1,5 @@
 data modify storage guesstheupdate:temp all.updates set from storage bldp:registry all.updates_with_items
+execute if data storage guesstheupdate:state all{disable_sub5:true} run function guesstheupdate:zzz/init/disable_sub5
 
 data modify storage bldp:array_random in set from storage guesstheupdate:temp all.updates
 function bldp:func/array/random/init

@@ -1,0 +1,2 @@
+execute if data storage guesstheupdate:state all{disable_sub5:true} run return run data modify storage guesstheupdate:state all.disable_sub5 set value false
+execute unless data storage guesstheupdate:state all{disable_sub5:true} run return run data modify storage guesstheupdate:state all.disable_sub5 set value true

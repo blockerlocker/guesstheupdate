@@ -6,6 +6,8 @@ This pack is optimized for singleplayer and hasn't been tested in multiplayer. I
 
 | Command | Description |
 | --- | --- |
+| `/function guesstheupdate:game_board/summon` | Create the game board at the player's location. Only one game board can exist at a time. |
+| `/function guesstheupdate:game_board/resummon` | Re-summon he game board at its current position. This is mostly a debug tool. |
 | `/function guesstheupdate:start` | Start the game. |
 | `/function guesstheupdate:end` | End the game early with no loss or victory. |
 | `/function guesstheupdate:toggle_sub_5_item_updates` | Disable updates that only added 1-4 items to the game. If left enabled like they are by default, duplicate items will appear on the board. |

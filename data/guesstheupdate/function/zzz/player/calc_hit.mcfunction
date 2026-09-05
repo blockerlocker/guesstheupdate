@@ -25,6 +25,6 @@ data modify storage guesstheupdate:temp all.final_x set string storage guesstheu
 data modify storage guesstheupdate:temp all.final_y set string storage guesstheupdate:temp all.final_y 0 -1
 data modify storage guesstheupdate:temp all.final_z set string storage guesstheupdate:temp all.final_z 0 -1
 
-execute if entity @s[y_rotation=105..-105] run function guesstheupdate:zzz/player/at_hit_point with storage guesstheupdate:temp all
+execute if entity @s[y_rotation=105..-105] run function guesstheupdate:zzz/player/macro_hit_point with storage guesstheupdate:temp all
 
 kill @s

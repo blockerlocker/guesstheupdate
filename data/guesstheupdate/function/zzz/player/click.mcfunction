@@ -1,0 +1,4 @@
+execute unless entity @e[type=item_display,tag=guesstheupdate_held_item] run playsound block.copper_bulb.turn_on ui @a ~ ~ ~ 5 1
+execute unless entity @e[type=item_display,tag=guesstheupdate_held_item] run return run tag @n[type=item_display,tag=guesstheupdate_item_holder,distance=..1] add guesstheupdate_held_item
+execute as @e[type=item_display,tag=guesstheupdate_held_item] unless entity @e[type=item_display,tag=guesstheupdate_hover,tag=!guesstheupdate_held_item,distance=..1] run return run tag @e[type=item_display,tag=guesstheupdate_held_item] remove guesstheupdate_held_item
+execute as @e[type=item_display,tag=guesstheupdate_held_item] if entity @e[type=item_display,tag=guesstheupdate_hover,tag=!guesstheupdate_held_item,distance=..1] run function guesstheupdate:zzz/held_item/swap

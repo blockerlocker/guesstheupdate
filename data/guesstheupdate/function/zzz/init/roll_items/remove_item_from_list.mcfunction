@@ -1,0 +1,1 @@
+$data remove storage guesstheupdate:temp all.random_item_list[$(index)]

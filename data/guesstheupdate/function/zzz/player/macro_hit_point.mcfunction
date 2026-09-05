@@ -1,0 +1,1 @@
+$execute positioned $(final_x) $(final_y) $(final_z) run function guesstheupdate:zzz/player/at_hit_point

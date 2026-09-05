@@ -1,0 +1,3 @@
+$execute store success storage guesstheupdate:temp all.submit_hover byte 1 if predicate {type:location_check,predicate:{position:{x:{min:$(submit_lower_x),max:$(submit_upper_x)},y:{min:$(submit_lower_y),max:$(submit_upper_y)}}}}
+execute if data storage guesstheupdate:temp all{submit_hover:true} run tag @e[type=text_display,tag=guesstheupdate_submit,tag=!guesstheupdate_submit_hover] add guesstheupdate_submit_hover
+execute if data storage guesstheupdate:temp all{submit_hover:false} run tag @e[type=text_display,tag=guesstheupdate_submit,tag=guesstheupdate_submit_hover] remove guesstheupdate_submit_hover

@@ -20,3 +20,5 @@ execute positioned ~ ~-6 ~ run function guesstheupdate:zzz/entity/item_holder
 execute positioned ~2.5 ~-6 ~ run function guesstheupdate:zzz/entity/item_holder
 execute positioned ~5 ~-6 ~ run function guesstheupdate:zzz/entity/item_holder
 execute positioned ~7.5 ~-6 ~ run function guesstheupdate:zzz/entity/item_holder
+
+execute positioned ~ ~-10 ~ run function guesstheupdate:zzz/entity/submit_button

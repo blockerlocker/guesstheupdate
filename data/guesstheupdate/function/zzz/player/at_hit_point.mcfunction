@@ -1,8 +1,9 @@
-particle witch
 tp e09f0de2-b2fe-41d7-b3ba-521f77524495 ~ ~-2.5 ~
 
-tag @e[tag=guesstheupdate_item_holder,tag=!guesstheupdate_hover,distance=..1] add guesstheupdate_hover
-tag @e[tag=guesstheupdate_item_holder,tag=guesstheupdate_hover,tag=!guesstheupdate_held_item,distance=1..] remove guesstheupdate_hover
+tag @e[tag=guesstheupdate_item_holder,tag=!guesstheupdate_item_hover,distance=..1] add guesstheupdate_item_hover
+tag @e[tag=guesstheupdate_item_holder,tag=guesstheupdate_item_hover,tag=!guesstheupdate_held_item,distance=1..] remove guesstheupdate_item_hover
+
+function guesstheupdate:zzz/player/hover_submit with storage guesstheupdate:state all
 
 execute as e09f0de2-b2fe-41d7-b3ba-521f77524495 if function guesstheupdate:zzz/player/test_click run function guesstheupdate:zzz/player/click
 

@@ -1,6 +1,6 @@
 execute unless data storage bldp:registry all.updates_with_items run function bldp:registry/updates_with_items
 scoreboard objectives add operator dummy
-execute unless data storage bldp:registry all.update.item."26.3-pre-2" run function bldp:registry/update/item/26.3-pre-2
+execute unless data storage bldp:registry all.update.item."26.3" run function bldp:registry/update/item/26.3
 execute unless data storage bldp:registry all.update.item."26.2" run function bldp:registry/update/item/26.2
 execute unless data storage bldp:registry all.update.item."26.1" run function bldp:registry/update/item/26.1
 execute unless data storage bldp:registry all.update.item."1.21.11" run function bldp:registry/update/item/1.21.11
